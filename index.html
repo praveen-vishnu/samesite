@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <img src='/img'>
+    <img src='https://calm-band-battery.glitch.me/img'>
     <button id='btn'>Login</button>
 
     <script>
@@ -18,7 +18,7 @@
             btn.style.display = "none";
 
         btn.addEventListener("click", e => {
-            fetch("/login", { "method": "POST" }).then(a => a.text()).then(console.log)
+            fetch("https://calm-band-battery.glitch.me/login", { "method": "POST" }).then(a => a.text()).then(console.log)
         })
     </script>
 </body>
